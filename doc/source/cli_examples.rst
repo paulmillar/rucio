@@ -103,8 +103,8 @@ Example of rucio.cfg file configuration with automatic token refresh::
   oidc_audience = rucio
   oidc_scope = openid profile offline_access
   oidc_issuer = wlcg
-  auth_oidc_refresh_active true
-  auth_oidc_refresh_before_exp 20
+  auth_oidc_refresh_active = true
+  auth_oidc_refresh_before_exp = 20
 
 Then, you should be able to do simply::
 
